@@ -1,7 +1,7 @@
-body {background: rgb(125, 198, 205);
+body {background: #b9b9b9d5;
     color: rgb(45. 45, 45);
     padding: 10px;
-    font-family: Arial, sans-serif;
+    font-family:Arial, sans-serif  ;
     }
     
     #all-contents {
@@ -11,16 +11,17 @@ body {background: rgb(125, 198, 205);
     
     /* navgation menu */
     nav {
-        background: rgb(239, 80,41);
-        margin: 0 auto;
-        display: flex; 
+        background:#000000;
         padding: 10px;
+        display: flex; 
+        justify-content: space-between;
+        margin-bottom: 20px;
     }
     
     h1 {
         display: flex;
         align-items: center;
-        color: white;
+        color: rgb(255, 255, 255);
         flex: 1;
         margin: 0;
     }
@@ -39,12 +40,12 @@ body {background: rgb(125, 198, 205);
     
     a {
         text-decoration: none;
-        color: #fff;
+        color: #ffffff;
     }
     
     /* main container area beneath menu */
     main {
-        background: rgb(245,238, 219);
+        background: rgb(125, 125, 124, 0.927);
         display: flex;
         margin-top: 20px;
     }
