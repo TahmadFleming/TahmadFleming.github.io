@@ -32,18 +32,28 @@ $(function () {
 
     // TODO 2 - Create Platforms
     createPlatform(0,700,1400,50);
-    createPlatform(150,600,100,2.5);
-    createPlatform(350,550,75,2.5);
-    createPlatform(550,500,50,2.5);
-    createPlatform(750,450,25,2.5);
-    createPlatform(750,450,25,2.5);
-    createPlatform(850,450,2.5,25);
-    createPlatform(950,450,2.5,25);
-    createPlatform(50,450,2.5,25)
-    createPlatform(550,450,2.5,25)
-    createPlatform(750,450,2.5,25)
-    createPlatform(750,450,2.5,25)
+    createPlatform(200,600,300,100);
+    createPlatform(280,500,140,100);
+    createPlatform(500,365,300,80);
+    createPlatform(125,330,125,5);
+    createPlatform(950,250,300,80);
+    createPlatform(1150,420,300,80);
+    createPlatform(925,250,100,600);
+    createPlatform(1000,550,100,150);
+    createPlatform(1100,610,75,100);
+    createPlatform(1000,675,500,50);
+    createPlatform(1250,250,-100,-50);
+    createPlatform(1350,350,100,80);
 
+
+    createCollectable("Steve",200,320,0);
+
+
+
+
+
+
+ 
 
 
 
