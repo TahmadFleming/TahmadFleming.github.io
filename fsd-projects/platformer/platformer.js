@@ -42,11 +42,18 @@ $(function () {
     createPlatform(1000,550,100,150);
     createPlatform(1100,610,75,100);
     createPlatform(1000,675,500,50);
-    createPlatform(1250,250,-100,-50);
     createPlatform(1350,350,100,80);
 
 
-    createCollectable("Steve",200,320,0);
+    createCollectable("steve",160,290,0);
+    createCollectable("diamond",200,290,0);
+    createCollectable("max",1250,635,0);
+    createCollectable("grace",1280,635,0);
+
+
+    createCannon("top",250,2000);
+    createCannon("right",600,2000);
+
 
 
 
