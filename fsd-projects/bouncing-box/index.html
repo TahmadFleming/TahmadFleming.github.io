@@ -75,10 +75,10 @@
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
-			function update (positionX = positionX + 10) {
-				moveBoxTo(300); // Moves the box to the x-position 300
-				(5); //Moves the box to far right edge
-				(positionX) = positionX + 10;
+			function update ()  {
+				positionX = positionX + 10;
+				moveBoxTo(positionX);
+				
 
 
 			};
