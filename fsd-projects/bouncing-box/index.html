@@ -77,6 +77,7 @@
 			*/
 			function update ()  {
 				positionX = positionX + 10;
+				var points = 0;
 				moveBoxTo(positionX);
 				
 
@@ -89,7 +90,9 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				positionX = 0
+				positionX = 0;
+				changeBoxText(points);
+				points++;
 
 
 			};
