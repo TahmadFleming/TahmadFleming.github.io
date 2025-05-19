@@ -28,14 +28,12 @@ var init = function (window) {
     }
 
     // TODO 3 : Call the drawCircle() function
-    drawCircle();
-    drawCircle();
-    drawCircle();
-    drawCircle();
-    drawCircle();
+    
 
-    // TODO 7 : Use a loop to create multiple circles
+    }
+    // TODO 7 : Draw 100 circles
 
+    
     for (var i = 0; i < 25; i++) {drawCircle();
 
     }
@@ -115,7 +113,7 @@ var init = function (window) {
     game.update = update;
 
     app.addUpdateable(window.opspark.game);
-  };
+  
 
 
 // DO NOT REMOVE THIS CODE //////////////////////////////////////////////////////
