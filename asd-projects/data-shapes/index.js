@@ -44,7 +44,7 @@ dataShapes.push(shape)
   // TODO 2: add a new property to all data shapes
   dataShapes.forEach((currentShape) => {
   console.log('Current shape:', currentShape);
-  let goodBehavior;
+  var goodBehavior;
   switch (currentShape.color) {
     case "red":
       goodBehavior = "bounce";
